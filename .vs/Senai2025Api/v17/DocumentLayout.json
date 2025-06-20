@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Workspace\\Testes\\Trainee2025\\Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2789C35D-4074-4EB7-AC97-883E378E0240}|Senai2025Api\\Senai2025Api.csproj|d:\\workspace\\testes\\trainee2025\\api\\senai2025api\\controllers\\escolacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2789C35D-4074-4EB7-AC97-883E378E0240}|Senai2025Api\\Senai2025Api.csproj|solutionrelative:senai2025api\\controllers\\escolacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2789C35D-4074-4EB7-AC97-883E378E0240}|Senai2025Api\\Senai2025Api.csproj|d:\\workspace\\testes\\trainee2025\\api\\senai2025api\\dtos\\enderecodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2789C35D-4074-4EB7-AC97-883E378E0240}|Senai2025Api\\Senai2025Api.csproj|solutionrelative:senai2025api\\dtos\\enderecodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2789C35D-4074-4EB7-AC97-883E378E0240}|Senai2025Api\\Senai2025Api.csproj|d:\\workspace\\testes\\trainee2025\\api\\senai2025api\\dtos\\escoladto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2789C35D-4074-4EB7-AC97-883E378E0240}|Senai2025Api\\Senai2025Api.csproj|solutionrelative:senai2025api\\dtos\\escoladto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2789C35D-4074-4EB7-AC97-883E378E0240}|Senai2025Api\\Senai2025Api.csproj|d:\\workspace\\testes\\trainee2025\\api\\senai2025api\\controllers\\escolacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2789C35D-4074-4EB7-AC97-883E378E0240}|Senai2025Api\\Senai2025Api.csproj|solutionrelative:senai2025api\\controllers\\escolacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2789C35D-4074-4EB7-AC97-883E378E0240}|Senai2025Api\\Senai2025Api.csproj|d:\\workspace\\testes\\trainee2025\\api\\senai2025api\\entidades\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EnderecoDTo.cs",
               "DocumentMoniker": "D:\\Workspace\\Testes\\Trainee2025\\Api\\Senai2025Api\\DTos\\EnderecoDTo.cs",
               "RelativeDocumentMoniker": "Senai2025Api\\DTos\\EnderecoDTo.cs",
@@ -135,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EscolaDTo.cs",
               "DocumentMoniker": "D:\\Workspace\\Testes\\Trainee2025\\Api\\Senai2025Api\\DTos\\EscolaDTo.cs",
               "RelativeDocumentMoniker": "Senai2025Api\\DTos\\EscolaDTo.cs",
@@ -148,13 +148,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "EscolaController.cs",
               "DocumentMoniker": "D:\\Workspace\\Testes\\Trainee2025\\Api\\Senai2025Api\\Controllers\\EscolaController.cs",
               "RelativeDocumentMoniker": "Senai2025Api\\Controllers\\EscolaController.cs",
               "ToolTip": "D:\\Workspace\\Testes\\Trainee2025\\Api\\Senai2025Api\\Controllers\\EscolaController.cs",
               "RelativeToolTip": "Senai2025Api\\Controllers\\EscolaController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAjwBUAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAjwBoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T18:16:02.51Z",
               "EditorCaption": ""
