@@ -34,14 +34,159 @@
             "description": "Success"
           }
         }
+      },
+      "delete": {
+        "tags": [
+          "Escola"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Escola/Editar": {
+      "post": {
+        "tags": [
+          "Escola"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EscolaEdicaoDTo"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EscolaEdicaoDTo"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EscolaEdicaoDTo"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Escola/PegarPorId": {
+      "get": {
+        "tags": [
+          "Escola"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Escola/ObterTodos": {
+      "get": {
+        "tags": [
+          "Escola"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
       }
     }
   },
   "components": {
     "schemas": {
+      "EnderecoDTo": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "rua": {
+            "maxLength": 80,
+            "type": "string",
+            "nullable": true
+          },
+          "bairro": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "cidade": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "estado": {
+            "maxLength": 2,
+            "type": "string",
+            "nullable": true
+          },
+          "numero": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "escolaId": {
+            "type": "integer",
+            "format": "int64"
+          }
+        },
+        "additionalProperties": false
+      },
       "EscolaDTo": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "nome": {
+            "type": "string",
+            "nullable": true
+          },
+          "endereco": {
+            "$ref": "#/components/schemas/EnderecoDTo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EscolaEdicaoDTo": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int64"
+          },
           "nome": {
             "type": "string",
             "nullable": true

@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "T0uS8EGrbkf4OEs03zwHTBrOwHxliiBbVA5cuKaWpFk=",
+  "Hash": "vku2Iv6/lNAp+35Z+DGPf545TcrxqinQNVLUEg84Iuw=",
   "Source": "Senai2025Api",
   "BasePath": "_content/Senai2025Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

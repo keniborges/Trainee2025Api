@@ -12,8 +12,8 @@ namespace Senai2025Api.Interfaces.Servicos
 
 		bool Remover(long id);
 
-		Escola ObterPorId(long id);
-        List<Escola> ObterTodos();
+        EscolaDTo ObterPorId(long id);
+        List<EscolaDTo> ObterTodos();
         
 
     }

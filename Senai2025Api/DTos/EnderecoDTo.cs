@@ -8,18 +8,17 @@ namespace Senai2025Api.DTos
 		public long Id { get; set; }
 
 		[MaxLength(80)]
-		public string Rua { get; set; }
+		public string? Rua { get; set; }
 
 		[MaxLength(50)]
-		public string Bairro { get; set; }
+		public string? Bairro { get; set; }
 
-		[MaxLength(60)]
-		public string Cidade { get; set; }
+		public int? Cidade { get; set; }
 
 		[MaxLength(2)]
-		public string Estado { get; set; }
+		public string? Estado { get; set; }
 
-		public int Numero { get; set; }
+		public int? Numero { get; set; }
 
 		public long EscolaId { get; set; }
 

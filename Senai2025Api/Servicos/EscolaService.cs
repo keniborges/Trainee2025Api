@@ -39,14 +39,14 @@ namespace Senai2025Api.Servicos
             return _escolaRepository.Remover(id);
         }
 
-        public Escola ObterPorId(long id)
+        public EscolaDTo ObterPorId(long id)
         {
-            return _escolaRepository.ObterPorId(id);
+            return _mapper.Map<EscolaDTo>(_escolaRepository.ObterPorId(id));
         }
 
-        public List<Escola> ObterTodos()
+        public List<EscolaDTo> ObterTodos()
         {
-            return _escolaRepository.ObterTodos();
+            return _mapper.Map<List<EscolaDTo>>(_escolaRepository.ObterTodos());
         }
 
 

@@ -88,10 +88,9 @@ namespace Senai2025Api.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("character varying(50)");
 
-                    b.Property<string>("Cidade")
-                        .IsRequired()
+                    b.Property<int>("Cidade")
                         .HasMaxLength(60)
-                        .HasColumnType("character varying(60)");
+                        .HasColumnType("integer");
 
                     b.Property<long>("EscolaId")
                         .HasColumnType("bigint");

@@ -9,11 +9,14 @@ namespace Senai2025Api.Mappers
 
         public EscolaMapper()
         {
-            CreateMap<EscolaDTo, Escola>()
-                .ForMember(dest => dest.Nome, opt => opt.MapFrom(src => src.Nome));
+            CreateMap<EscolaDTo, Escola>().ReverseMap();
+                //.ForMember(dest => dest.Nome, opt => opt.MapFrom(src => src.Nome));
 
             CreateMap<EscolaEdicaoDTo, Escola>().ReverseMap();
 
-		}
+            CreateMap<EnderecoDTo, Endereco>().ReverseMap();
+
+
+        }
     }
 }
