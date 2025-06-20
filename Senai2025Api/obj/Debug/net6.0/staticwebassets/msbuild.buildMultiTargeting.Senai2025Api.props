@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Senai2025Api.props" />
+</Project>
