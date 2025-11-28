@@ -45,8 +45,13 @@ jobs:
 
       - name: Build, tag and push image to ECR
         run: |
-          docker build -t $ECR_REPOSITORY:$IMAGE_TAG .
+          # build usando o Dockerfile dentro da pasta Senai2025Api
+          docker build -f Senai2025Api/Dockerfile -t $ECR_REPOSITORY:$IMAGE_TAG Senai2025Api
+          
+          # cria a tag completa apontando pro ECR
           docker tag $ECR_REPOSITORY:$IMAGE_TAG $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+          
+          # envia pro ECR
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
 
       - name: Force new deployment on ECS Service
